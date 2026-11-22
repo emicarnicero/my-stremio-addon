@@ -1,12 +1,18 @@
 {
   "streams": [
     {
-      "title": "Play Magnet Stream",
-      "infoHash": "3AC7749C54E6273CE187E842B20C4E710E3DCB24"
-    },
-    {
-      "title": "Avengers",
-      "infoHash": "414A6F933C48FC7543A9CDB42C854B5457C5BCC7"
+      "name": "Addon",
+      "title": "Avengers (1080p)",
+      "infoHash": "414a6f933c48fc7543a9cdb42c854b5457c5bcc7",
+      "fileIdx": 0,
+      "sources": [
+       "tracker:udp://tracker.coppersurfer.tk:6969/announce",
+        "tracker:udp://9.rarbg.com:2710/announce",
+        "tracker:udp://p4p.arenabg.com:1337",
+        "tracker:udp://tracker.internetwarriors.net:1337",
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "dht:414a6f933c48fc7543a9cdb42c854b5457c5bcc7"
+      ]
     }
   ]
 }
