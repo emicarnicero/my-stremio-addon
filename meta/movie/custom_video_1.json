@@ -1,9 +1,0 @@
-{
-  "meta": {
-    "id": "custom_video_1",
-    "type": "movie",
-    "name": "My Custom Video",
-    "poster": "https://unsplash.com",
-    "description": "Custom stream loaded via GitHub Pages."
-  }
-}
