@@ -1,24 +1,35 @@
 {
-  "id": "org.mycustom.singlemagnet",
-  "version": "1.0.0",
-  "name": "My Single Magnet Addon",
-  "description": "Plays my custom magnet link in Stremio",
-  "resources": [
-    "catalog",
-    "meta",
-    "stream"
-  ],
-  "types": [
-    "movie"
-  ],
-  "catalogs": [
-    {
-      "type": "movie",
-      "id": "my_custom_catalog",
-      "name": "My Custom Videos"
-    }
-  ],
-  "idPrefixes": [
-    "custom_"
-  ]
+  "id": "org.mycustom.imdbstreams",
+  "version": "1.0.1",
+  "name": "My Personal Streams",
+  "description": "Plays my custom magnet links on official movie pages",
+  "resources": ["stream"],
+  "types": ["movie", "series"],
+  "catalogs": [],
+  "idPrefixes": ["tt"]
 }
+
+// {
+//   "id": "org.mycustom.singlemagnet",
+//   "version": "1.0.0",
+//   "name": "My Single Magnet Addon",
+//   "description": "Plays my custom magnet link in Stremio",
+//   "resources": [
+//     "catalog",
+//     "meta",
+//     "stream"
+//   ],
+//   "types": [
+//     "movie"
+//   ],
+//   "catalogs": [
+//     {
+//       "type": "movie",
+//       "id": "my_custom_catalog",
+//       "name": "My Custom Videos"
+//     }
+//   ],
+//   "idPrefixes": [
+//     "custom_"
+//   ]
+// }
