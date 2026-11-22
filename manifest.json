@@ -8,28 +8,3 @@
   "catalogs": [],
   "idPrefixes": ["tt"]
 }
-
-// {
-//   "id": "org.mycustom.singlemagnet",
-//   "version": "1.0.0",
-//   "name": "My Single Magnet Addon",
-//   "description": "Plays my custom magnet link in Stremio",
-//   "resources": [
-//     "catalog",
-//     "meta",
-//     "stream"
-//   ],
-//   "types": [
-//     "movie"
-//   ],
-//   "catalogs": [
-//     {
-//       "type": "movie",
-//       "id": "my_custom_catalog",
-//       "name": "My Custom Videos"
-//     }
-//   ],
-//   "idPrefixes": [
-//     "custom_"
-//   ]
-// }
